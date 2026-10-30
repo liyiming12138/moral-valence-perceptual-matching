@@ -22,7 +22,7 @@ moral valence/
 |       |-- About_Analyses.txt
 |       |-- 2_4_1_Data/
 |       |-- 2_4_2_Script/
-|       |   `-- 1a full code 1029.R
+|       |   `-- 1a_full_code_1030.R
 |       |-- 2_4_3_Results/
 |       |-- 2_4_4_Figures/
 |       `-- 2_4_5_ModelCache/  [本地模型缓存，不提交至Git]
@@ -34,7 +34,7 @@ moral valence/
 `-- .gitignore
 
 三、代码与模型
-主代码：2_Exp1a/2_4_Analyses/2_4_2_Script/1a full code 1029.R。
+主代码：2_Exp1a/2_4_Analyses/2_4_2_Script/1a_full_code_1030.R。
 RT使用lognormal分布；SDT使用Bernoulli分布与probit链接。
 本次只整理目录和路径，未修改模型公式、先验、筛选标准、抽样设置或统计结论。
 所有MCMC使用CmdStanR。桥采样的add_rstan_model仅提供概率密度接口，不进行RStan MCMC。
