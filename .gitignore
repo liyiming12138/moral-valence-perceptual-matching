@@ -1,0 +1,22 @@
+# R session files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+Rplots.pdf
+
+# Local model caches and compiled Stan files
+**/2_4_5_ModelCache/
+*.rds
+*.RDS
+*.rda
+*.RData
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+
+# Temporary files
+~$*
+*.tmp
