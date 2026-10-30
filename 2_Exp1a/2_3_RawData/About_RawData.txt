@@ -1,0 +1,11 @@
+﻿实验1a原始数据说明
+当前目录尚未复制原始数据。分析脚本继续读取以下已有数据目录：
+D:/Users/15/Desktop/道德自我/SalientGoodSelf-master/SalientGoodSelf-master/exp1a
+
+输入文件：
+rawdata_behav_exp1a_201404_export_2019.csv
+rawdata_behav_exp1a_201704_export_2019.csv
+
+若以后将原始文件放入当前目录，可把脚本data_dir改为：
+data_dir <- file.path(curDir, "2_Exp1a", "2_3_RawData")
+保持原始数据不变；清理后的分析数据由脚本另行输出。
